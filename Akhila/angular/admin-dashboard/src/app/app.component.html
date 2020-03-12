@@ -1,0 +1,57 @@
+<!-- nav -->
+<nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="currentUser">
+  <!-- <mat-sidenav-container>
+    <mat-sidenav mode="over" [(opened)]="opened">sidenave</mat-sidenav>
+    <mat-sidenav-content>Main
+      <button (click)="opened=!opened" >Toggle opened</button>
+    </mat-sidenav-content>
+  </mat-sidenav-container> -->
+  <!-- <button (click)="opened=!opened" ><mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon></button> -->
+  <!-- <button type="button" mat-button (click)="drawer.toggle()">
+    Toggle sidenav
+  </button> -->
+
+    <button type="button" mat-button (click)="opened=!opened" (click)="usertype? callful() : callful1()">
+      Toggle sidenav
+    </button>
+
+  <div class="navbar-nav">
+      <a class="nav-item nav-link" routerLink="/" >Home</a>
+      <a class="nav-item nav-link" (click)="logout()" (click)="opened=false">Logout</a>
+  </div>
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Dropdown button
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Student</a>
+      <a class="dropdown-item" href="#">Teacher</a>
+      <a class="dropdown-item" href="#">Admin</a>
+      <a class="dropdown-item" href="#">main admin</a>
+    </div>
+  </div>
+</nav>
+<div>
+ <mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side" [(opened)]="opened">
+
+<div id="a1" style="display:block;"> <a routerLink='/user' >User</a></div>
+
+  </mat-drawer>
+
+</mat-drawer-container>
+
+
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-6 offset-sm-3">
+              <alert></alert>
+              <router-outlet></router-outlet>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- credits -->
+

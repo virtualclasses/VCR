@@ -1,0 +1,54 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">WebSiteName</a>
+      </div>
+      
+      <ul class="nav navbar-nav">
+        <li style="left: 500px;" class="active"><a href="#">MY COURSE</a></li>
+        <li style="left: 560px;"><a href="#">RESOURCE</a></li>
+        
+      </ul>
+      <div class="form-group">
+        <div class="col-sm-3">
+        
+       
+          <input type="text" placeholder="Search.." name="search" style=" top:20px;width: 300px;right:450px; height: 25px;position: absolute;left: 640px;">
+      </div>
+      <div class="container">
+   
+        <div class="dropdown">
+          <button class="glyphicon glyphicon-user" type="button" data-toggle="dropdown" style=" top:20px;width: 50px; height: 30px; left:650px">
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu" style="position: absolute;left:1200px;">
+            <li class="dropdown-header"><a [routerLink]="['/profile']">Profile</a></li>
+            <hr>
+            <li class="dropdown-header"><a href="#">Earnings</a></li>
+            
+           
+            <li class="divider"></li>
+            <li class="dropdown-header"><a href="#">Reports</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header"><a href="#">Help & Support</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header"><a href="#">Logout</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    </div>
+  </nav>
+  <div style="width: 300px;left:150px;top:90px; height: 500px;position: absolute;right: 10px;border: 1px solid black;background-color:white;">
+    <a class="divider"></a>
+    <a href="#" >Edit Profile</a>
+    <hr>
+
+    <a href="#">Change Password</a>
+    <hr>
+
+    <a href="#">Reports</a>
+    <hr>
+    <a href="#">Help & Support</a>
+</div>

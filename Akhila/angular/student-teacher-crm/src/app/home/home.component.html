@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-sm" style="width: 100%; background-color:whitesmoke;">
+
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a [routerLink]="['/home']"style="position:absolute;left:10px">Cname</a>
+    </li>
+    <li>
+      <button class=" btn btn-primary" style="position:absolute;left:90px;width:120px;height:40px;border-radius:20px;">All courses</button>
+
+    </li>
+    <li>
+       <div class="searchBox"style="position:absolute;top:-20px;left:1325px" >
+      <input class="searchInput"type="text" name="" placeholder="Search">
+        <button class="searchButton" href="#">
+            <i class="material-icons">
+                search
+            </i>
+        </button>
+        </div>
+      </li>
+
+    <li>
+     <button class=" btn btn-primary" style="width:90px;height:40px;border-radius:20px;"[routerLink]="['/student']">Login</button>
+    </li>
+  </ul>
+</nav>
+
+
+
