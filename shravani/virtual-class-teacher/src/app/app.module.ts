@@ -10,6 +10,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NewstudentComponent } from './newstudent/newstudent.component';
 import { ProfileComponent } from './profile/profile.component';
 import { StudentprofileComponent } from './studentprofile/studentprofile.component';
+import { ReportsComponent } from './reports/reports.component';
+import { HelpsupportComponent } from './helpsupport/helpsupport.component';
+import { ReviewsComponent } from './reviews/reviews.component';
+import { SessionComponent } from './session/session.component';
+import { SettingsComponent } from './settings/settings.component';
 
 
 
@@ -21,7 +26,12 @@ import { StudentprofileComponent } from './studentprofile/studentprofile.compone
     HomeComponent,
     NewstudentComponent,
     ProfileComponent,
-    StudentprofileComponent
+    StudentprofileComponent,
+    ReportsComponent,
+    HelpsupportComponent,
+    ReviewsComponent,
+    SessionComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,

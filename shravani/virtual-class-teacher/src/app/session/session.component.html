@@ -1,0 +1,266 @@
+<div style="width: 100%; height: 65px; background-color: black;">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a [routerLink]="['/home']"style="position:absolute;color:white;font-size:20px;left:10px;top:10px;">Cname</a>
+    </li>
+    <li>
+      <a [routerLink]="['/home']"style="position:absolute;color:white;font-size:20px;left:850px;top:10px;">My Courses</a>
+      </li>
+      <a [routerLink]="['/home']"style="position:absolute;color:white;font-size:20px;left:1050px;top:10px;">Resourses</a>
+      <li>
+        </li>
+    <li>
+      <div class="searchBox"style="position:absolute;top:10px;left:1150px" >
+        <input class="searchInput"type="text" name="" placeholder="Search">
+          <button class="searchButton" href="#">
+              <i class="material-icons">
+                  search
+              </i>
+        </button>
+        </div>
+      </li>
+  </ul>
+  <div class="container">
+                           
+    <div class="glyphicon glyphicon-user" >
+      <a class=" dropdown-toggle" data-toggle="dropdown"style="position:absolute;right:60px;top:20px;border-radius:40px;color:white">
+        </a>
+      <div class="dropdown-menu" style="position: absolute;right: 300px;width:20px">
+        <a class="dropdown-item" [routerLink]="['/studentprofile']">Profile</a><hr>
+        <a class="dropdown-item" [routerLink]="['/reports']">Reports</a><hr>
+        <a class="dropdown-item" [routerLink]="['/session']">Session</a><hr>
+        <a class="dropdown-item" [routerLink]="['/settings']">Settings</a><hr>
+        <a class="dropdown-item" [routerLink]="['/reviews']">Reviews</a><hr>
+       <a class="dropdown-item" [routerLink]="['/helpsupport']">Help & Support</a><hr>
+        <a class="dropdown-item" href="#">Logout</a>
+    </div>
+    <img src="/assets/image/icon.png" style="width:40px; height:40px;border-radius:150px;position: absolute;left:1400px;top:15px;"/>
+    </div>
+    </div>
+  </div>
+  
+
+<div class="div3" id="div3">
+    <div style="position: relative; left: 100px; top: 50px;">
+      <select id="se">
+          <option>Choose Course</option>
+          <option value="php">Php</option>
+          <option value="java">Java</option>
+          <option value="python">Python</option>
+      </select>
+  </div>
+  <!-- For php -->
+  <div class="php box2">
+    <table class="ccol"><tr>
+    <td><h5>Php</h5></td>
+    <td> <h5>Timing</h5></td>
+  </tr></table>
+  <table  class="text-danger">
+    <tr>
+      <td>Session : &nbsp;</td>
+      <td> <select>
+        <option>Choose Session</option>
+        <option value="10">10  </option>
+        <option value="15">15  </option>
+        <option value="20">20  </option>
+    </select> </td>
+    </tr>
+  </table>
+  <br>
+  <table style="color: black;"><tr>
+    <td>From : &nbsp;</td>
+    <td><input type ="date"></td>
+  </tr></table>
+  <br>
+  <table style="color: black;"><tr>
+    <td>To : &nbsp;</td>
+    <td><input type ="date"></td>
+  </tr></table>
+  <br>
+
+   <p style="color: black;"> Timing Slot :</p>
+  <table  style="position: relative;left:100px;top:-40px;color: black;">
+    <tr>
+      <td> <tr>
+        <td><input type="radio" name="r3" id="r31" (click)="smorneph()"></td>
+        <td>Morning</td>
+
+    <tr>
+      <td><input type="radio" name="r3" id="r39" (click)="safternph()"></td>
+      <td>After-noon</td>
+    </tr>
+    <tr>
+      <td><input type="radio" name="r3" id="r30" (click)="seveningph()"></td>
+      <td>Evening</td>
+    </tr>
+  </table>
+  <br>
+  <p style="color: black;"> Timing  :</p>
+  <select id="ph1" style="position: relative; top: -40px; left: 70px;">
+    <option value="">Chose Time   </option>
+  </select>
+  <select id="ph2" style="display: none;position: relative; top: -40px; left: 70px;">
+    <option value="">Chose Time   </option>
+    <option value="">9:30 to 10:30</option>
+    <option value="" >10:30 : 11:30</option>
+    <option value="">11:30 to 12:30</option>
+  </select>
+  <select style="display: none;position: relative; top: -30px; left: 40px;" id="ph3">
+    <option value="">Chose Time   </option>
+    <option value="">12:30 to 1:30</option>
+    <option value="">1:30 to 2:30</option>
+    <option value="">2:30 to 3:30</option>
+    <option value="">3:30 to 4:30</option>
+  </select>
+  <select style="display: none;position: relative; top: -40px; left: 70px;" id="ph4">
+    <option value="">Chose Time   </option>
+    <option value="">4:30 to 5:30</option>
+    <option value="">5:30 to 6:30</option>
+    <option value="">6:30 to 7:30</option>
+  </select>
+  <button class="btn btn-primary" style="position: relative;left: 170px;top: -20px;">Submit</button>
+  </div>
+  <!-- For java -->
+  <div class="java box2"><table class="ccol"><tr>
+    <td><h5>Java</h5></td>
+    <td> <h5>Timing</h5></td>
+  </tr></table>
+  <table  class="text-primary">
+    <tr>
+      <td>Session : &nbsp;</td>
+      <td> <select>
+        <option>Choose Session</option>
+        <option>10  session</option>
+        <option>15  session</option>
+        <option>20  session</option>
+    </select> </td>
+    </tr>
+  </table>
+  <br>
+  <table style="color: black;"><tr>
+    <td>From : &nbsp;</td>
+    <td><input type ="date"></td>
+  </tr></table>
+  <br>
+
+  <table style="color: black;"><tr>
+    <td>To : &nbsp;</td>
+    <td><input type ="date"></td>
+  </tr></table>
+  <br>
+
+ <p style="color: black;"> Timing Slot :</p>
+  <table style="position: relative;left:100px;top:-40px;color: black;">
+    <tr>
+      <td> <tr>
+        <td><input type="radio" name="r2" id="r12" (click)="smorneja()"></td>
+        <td>Morning</td>
+
+    <tr>
+      <td><input type="radio" name="r2" id="r21" (click)="safternja()"></td>
+      <td>After-noon</td>
+    </tr>
+    <tr>
+      <td><input type="radio" name="r2" id="r31" (click)="seveningja()"></td>
+      <td>Evening</td>
+    </tr>
+  </table>
+  <p style="color: black;"> Timing  :</p>
+  <select id="ja1"style="position: relative; top: -40px; left: 70px;">
+    <option value="">Chose Time   </option>
+  </select>
+  <select id="ja2" style="display: none;position: relative; top: -40px; left: 70px;">
+    <option value="">Chose Time   </option>
+    <option value="">9:30 to 10:30</option>
+    <option value="" >10:30 : 11:30</option>
+    <option value="">11:30 to 12:30</option>
+</select>
+  <select style="display: none;position: relative; top: -40px; left: 70px;" id="ja3">
+    <option value="">Chose Time   </option>
+    <option value="">12:30 to 1:30</option>
+    <option value="">1:30 to 2:30</option>
+    <option value="">2:30 to 3:30</option>
+    <option value="">3:30 to 4:30</option>
+  </select>
+  <select style="display: none;position: relative; top: -40px; left: 70px;" id="ja4">
+    <option value="">Chose Time   </option>
+    <option value="">4:30 to 5:30</option>
+    <option value="">5:30 to 6:30</option>
+    <option value="">6:30 to 7:30</option>
+  </select>
+  <button class="btn btn-primary" style="position: relative;left: 170px;top: -20px;">Submit</button>
+</div>
+<!-- For Python -->
+  <div class="python box2"><table class="ccol"><tr>
+    <td><h5>Python</h5></td>
+    <td> <h5>Timing</h5></td>
+  </tr></table>
+  <table  class="text-dark">
+    <tr>
+      <td>Session : &nbsp; </td>
+      <td> <select>
+        <option>Choose Session</option>
+        <option>10  session</option>
+        <option>15  session</option>
+        <option>20  session</option>
+    </select> </td>
+    </tr>
+  </table>
+  <br>
+  <table style="color: black;"><tr>
+    <td>From :&nbsp;</td>
+    <td><input type ="date"></td>
+  </tr></table>
+  <br>
+  <table style="color: black;"><tr>
+    <td>To :&nbsp;</td>
+    <td><input type ="date"></td>
+  </tr></table>
+  <br>
+ <p style="color: black;"> Timing Slot :</p>
+  <table style="position: relative;left:100px;top:-40px;color: black;">
+    <tr>
+      <td> <tr>
+        <td><input type="radio" name="r1" id="r1" (click)="smorne()"></td>
+        <td>Morning</td>
+
+    <tr>
+      <td><input type="radio" name="r1" id="r2" (click)="saftern()"></td>
+      <td>After-noon</td>
+    </tr>
+    <tr>
+      <td><input type="radio" name="r1" id="r3" (click)="sevening()"></td>
+      <td>Evening</td>
+    </tr>
+  </table>
+  <br>
+  <p style="color: black;"> Timing  :</p>
+  <select id="sel1" style="position: relative; top: -40px; left: 70px;">
+    <option value="">Chose Time   </option>
+  </select>
+  <select id="sel2" style="display: none;position: relative; top: -40px; left: 70px;">
+    <option value="">Chose Time   </option>
+    <option value="">9:30 to 10:30</option>
+    <option value="" >10:30 : 11:30</option>
+    <option value="">11:30 to 12:30</option>
+
+  </select>
+  <select style="display: none;position: relative; top: -40px; left: 70px;" id="sel3">
+    <option value="">Chose Time   </option>
+    <option value="">12:30 to 1:30</option>
+    <option value="">1:30 to 2:30</option>
+    <option value="">2:30 to 3:30</option>
+    <option value="">3:30 to 4:30</option>
+  </select>
+  <select style="display: none;position: relative; top: -40px; left: 70px;" id="sel4">
+    <option value="">Chose Time   </option>
+    <option value="">4:30 to 5:30</option>
+    <option value="">5:30 to 6:30</option>
+    <option value="">6:30 to 7:30</option>
+  </select>
+  <button class="btn btn-primary" style="position: relative;left: 170px;top: -20px;">Submit</button>
+</div>
+
+  </div>
+  
+    

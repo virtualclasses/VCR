@@ -1,0 +1,182 @@
+@media only screen and (min-width: 500px) {
+    #sidebar{
+      width: 250px;
+      height: 780px;
+      border-right: 1px solid rgba(0,0,0,0.063);
+      background-color: #fff;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    overflow: hidden;
+    transition-property: all;
+    transition-duration: 0.2S;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    z-index: 1000;
+    text-align: center;
+    }
+    #navbar{
+      width: 1520px;
+      height: 65px;
+      border-bottom: 1px solid rgba(0,0,0,0.063);
+      background-color: #fff;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-attachment: fixed;
+    }
+    #indiv1{
+      display: block;
+      width: 250px;
+      height: 680px;
+    }
+    #indiv2{
+      width: 70px;
+      height: 680px;
+      border-right:
+      1px solid gainsboro;
+      text-align: center;
+      display:none;
+    }
+    .fs{
+      font-size:20px;
+       color: blue;
+       position: relative;
+       top:7px;
+       left: -5px;
+    }
+    .div3{
+      position: fixed;
+    top: 100px;
+    left: 250px;
+        width: 1460px;
+        height: auto;
+        background-color:white;
+      }
+      .signal1{
+        background-color: red;
+        border: 1px solid red;
+        width: 2px;
+      }
+      .sig1{
+        position: relative;
+        top:20px;
+        left: 20px;
+      }
+      .signal2{
+        background-color: violet;
+        border: 1px solid violet;
+        width: 2px;
+      }
+      .signal3{
+        background-color: blue;
+        border: 1px solid blue;
+        width: 2px;
+      }
+      .sig11{
+        height: 8px;
+        position: relative;
+        left: 2px;
+      }
+      .sig12{
+        height: 12px;position: relative;left: 7px;top: -12px;
+      }
+      .sig13{
+        height: 15px;position: relative;left: 11px;top:-27px;
+      }
+      .sig14{
+        height: 15px;position: relative;left: 15px;top: -42px;
+      }
+      .sig15{
+        height: 18px;position: relative;left: 19px;top: -60px;
+      }
+      .sig16{
+        height: 15px;position: relative;left: 23px;top: -75px;
+      }
+      .sig17{
+        height: 15px;position: relative;left: 27px;top: -90px;
+      }
+      .sig18{
+        height: 13px;position: relative;left: 31px;top: -103px;
+      }
+      .sig19{
+        height: 11px;position: relative;left: 35px;top: -114px;
+      }
+      .sig20{
+        height: 8px;position: relative;left: 39px;top: -122px;
+      }
+      .tstu{
+        width: 350px;
+        height: 150px;
+      position: relative;
+      left: 20px;
+      top: 10px;
+        border: 1px solid rgba(0,0,0,0.063);
+      }
+      .serc{
+        position: absolute;
+        left: 300px;
+        top:10px;
+        border: none;
+        color:rgba(0,0,0,0.063);
+         font-size: 25px;
+          background-color: white;
+      }
+      .ttech{
+        width: 350px;
+        height: 150px;
+      position: relative;
+      left: 470px;
+      top: -140px;
+        border: 1px solid rgba(0,0,0,0.063);
+      }
+      .course{
+        width: 350px;
+        height: 150px;
+      position: relative;
+      top: -290px;
+      left: 890px;
+        border: 1px solid rgba(0,0,0,0.063);
+      }
+      .h4{
+        position: relative;
+        top:20px;
+        left: 30px;
+        color: darkgrey;
+      }
+      .h5{
+        position: relative;
+        top:50px;
+        left: 230px;
+        color: wheat;
+        padding-top: 5px;
+        width: 90px;
+        height: 35px;
+        border-radius: 200px;
+        border: 1px solid whitesmoke;
+        text-align: center;
+        background-color: blueviolet;
+      }
+      .box2{
+        color: #fff;
+        padding: 20px;
+        display: none;
+        margin-top: 20px;
+        width: 400px;
+        height: 450px;
+        border-radius: 5px;
+        border: 2px solid whitesmoke;
+      }
+    
+      .php{ background: white;
+      position: relative; top: 70px; left: 150px; }
+      .java{ background: white; position: relative; top: 70px; left: 150px;}
+      .python{ background: white;position: relative; top: 70px; left: 150px; }
+    .ccol{
+      color: black;
+      position: relative;
+      left: 90px;
+      top: -20px;
+    }
+    }
+    

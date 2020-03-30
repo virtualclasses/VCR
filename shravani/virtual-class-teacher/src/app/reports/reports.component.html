@@ -1,0 +1,108 @@
+<div style="width: 100%; height: 65px; background-color: black;">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a [routerLink]="['/home']"style="position:absolute;color:white;font-size:20px;left:10px;top:10px;">Cname</a>
+    </li>
+    <li>
+      <a [routerLink]="['/home']"style="position:absolute;color:white;font-size:20px;left:850px;top:10px;">My Courses</a>
+      </li>
+      <a [routerLink]="['/home']"style="position:absolute;color:white;font-size:20px;left:1050px;top:10px;">Resourses</a>
+      <li>
+        </li>
+    <li>
+       <div class="searchBox"style="position:absolute;top:-15px;left:1300px" >
+      <input class="searchInput"type="text" name="" placeholder="Search">
+        <button class="searchButton" href="#">
+            <i class="material-icons">
+                search
+            </i>
+        </button>
+        </div>
+      </li>
+  </ul>
+  <div class="container">
+                           
+    <div class="glyphicon glyphicon-user" >
+      <a class=" dropdown-toggle" data-toggle="dropdown"style="position:absolute;right:60px;top:20px;border-radius:30px;color:white">
+        </a>
+      <div class="dropdown-menu" style="position: absolute;right: 300px;width:20px">
+        <a class="dropdown-item" [routerLink]="['/studentprofile']">Profile</a><hr>
+        <a class="dropdown-item" [routerLink]="['/reports']">Reports</a><hr>
+        <a class="dropdown-item" [routerLink]="['/session']">Session</a><hr>
+        <a class="dropdown-item" [routerLink]="['/settings']">Settings</a><hr>
+        <a class="dropdown-item" [routerLink]="['/reviews']">Reviews</a><hr>
+       <a class="dropdown-item" [routerLink]="['/helpsupport']">Help & Support</a><hr>
+        <a class="dropdown-item" href="#">Logout</a>
+    </div>
+    <img src="/assets/image/icon.png" style="width:40px; height:40px;border-radius:150px;position: absolute;left:1400px;top:15px;"/>
+    </div>
+    </div>
+  </div>
+
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      
+      <br>
+      
+    
+      <div class="form-group" style="position: relative;top:50px;left: -1200px;">
+        <label class="mb-2 mr-sm-2">Upload:</label>&nbsp;
+        <input type="text" style="position:relative;left:0px;">
+            </div>
+      <div class="image-upload-wrap"style="position:absolute;left:-250px;top:-140px;">
+        <input class="file-upload-input" style="position: absolute;top:200px;left:660px"type="file" onchange="readURL(this);" accept="image/.."/>
+        <div class="file-upload-content">
+    </div>
+    </div>
+    </div>
+  </nav>
+  
+<div class="form-check-inline">
+  <label class="form-check-label"style="position:absolute;left:150px;top:160px;" for="check2">
+    <input type="radio" name="r1" class="form-check-input" id="check2" name="vehicle2" value="something">Vedio
+  </label>
+</div>
+<div class="form-check-inline">
+  <label class="form-check-label" style="position:absolute;left:150px;top:190px;" for="check2">
+    <input type="radio"name="r1" class="form-check-input" id="check2" name="vehicle2" value="something">Pdf,Doc
+  </label>
+  <div class="container"style="position:absolute;top:270px;">
+      
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Sl.No</th>
+          <th>Name of the file</th>
+          <th>Type of the file</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>teching1</td>
+          <td>.MP3</td>
+          <td><button class="btn btn-primary"><i class="far fa-edit"></i></button>
+        &nbsp;<button class="btn btn-danger"><i class="fas fa-trash-alt" ></i></button></td>
+    
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>teching2</td>
+          <td>.pdf</td>
+          <td><button class="btn btn-primary"><i class="far fa-edit"></i></button>
+        &nbsp;<button class="btn btn-danger"><i class="fas fa-trash-alt" ></i></button></td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>teaching3</td>
+          <td>.MP3</td>
+          <td><button class="btn btn-primary"><i class="far fa-edit"></i></button>
+            &nbsp;<button class="btn btn-danger"><i class="fas fa-trash-alt" ></i></button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+

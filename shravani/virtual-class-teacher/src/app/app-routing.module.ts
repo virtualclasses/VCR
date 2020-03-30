@@ -5,6 +5,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { NewstudentComponent } from './newstudent/newstudent.component';
 import { StudentprofileComponent } from './studentprofile/studentprofile.component';
+import {ReportsComponent} from './reports/reports.component';
+import {HelpsupportComponent} from './helpsupport/helpsupport.component';
+import { SessionComponent } from './session/session.component';
+import { SettingsComponent } from './settings/settings.component';
+import {ReviewsComponent} from './reviews/reviews.component'
 
 
 
@@ -16,6 +21,11 @@ const routes: Routes = [
   {path : 'register', component: UserRegisterComponent},
   {path : 'newstudent', component: NewstudentComponent},
   {path: 'studentprofile', component: StudentprofileComponent},
+  {path:'reports',component:ReportsComponent},
+  {path:'helpsupport',component:HelpsupportComponent},
+  {path:'reviews',component:ReviewsComponent},
+  {path:'session',component:SessionComponent},
+  {path:'settings',component:SettingsComponent},
   {path: '', redirectTo: 'home' , pathMatch: 'full'}
 ];
 

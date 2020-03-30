@@ -4,9 +4,9 @@
         <a [routerLink]="['/home']"style="position:absolute;color:white;font-size:20px;left:10px;top:10px;">Cname</a>
       </li>
       <li>
-        <a [routerLink]="['/home']"style="position:absolute;color:white;font-size:20px;left:150px;top:10px;">My Courses</a>
+        <a [routerLink]="['/home']"style="position:absolute;color:white;font-size:20px;left:850px;top:10px;">My Courses</a>
         </li>
-        <a [routerLink]="['/home']"style="position:absolute;color:white;font-size:20px;left:300px;top:10px;">Resourses</a>
+        <a [routerLink]="['/home']"style="position:absolute;color:white;font-size:20px;left:1050px;top:10px;">Resourses</a>
         <li>
           </li>
       <li>
@@ -27,10 +27,11 @@
       </a>
     <div class="dropdown-menu" style="position: absolute;right: 300px;width:20px">
     <a class="dropdown-item" [routerLink]="['/studentprofile']">Profile</a><hr>
-    <a class="dropdown-item" href="#">Earnings</a> <hr>
-    <a class="dropdown-item" href="#">Reports</a><hr>
-    <a class="dropdown-item" href="#">Help & Support</a><hr>
-    <a class="dropdown-item" href="#">Reviews</a><hr>
+    <a class="dropdown-item" [routerLink]="['/reports']">Reports</a><hr>
+    <a class="dropdown-item" [routerLink]="['/Session']">Session</a><hr>
+    <a class="dropdown-item" [routerLink]="['/Settings']">Settings</a><hr>
+    <a class="dropdown-item" [routerLink]="['/Reviews']">Reviews</a><hr>
+   <a class="dropdown-item" [routerLink]="['/helpsupport']">Help & Support</a><hr>
     <a class="dropdown-item" href="#">Logout</a>
   </div>
   <img src="/assets/image/icon.png" style="width:40px; height:40px;border-radius:150px;position: absolute;left:1400px;top:15px;"/>
@@ -51,18 +52,19 @@
   <br>
   <br>
   <div class="container">
-  <button type="button" class="btn btn-primary" [routerLink]="['/php']"  style="border-radius: 30px;">PHP</button>&nbsp;
+  <button type="button"  [routerLink]="['/php']"  style="border-radius: 30px;background-color:whitesmoke">PHP</button>&nbsp;
 
-   <button type="button" class="btn btn-primary"  [routerLink]="['/java']"  style="border-radius: 30px;">JAVA</button>&nbsp;
+   <button type="button" [routerLink]="['/java']"  style="border-radius: 30px;background-color:whitesmoke">JAVA</button>&nbsp;
 
-    <button type="button" class="btn btn-primary"   [routerLink]="['/html']" style="border-radius: 30px;">HTML</button>&nbsp;
-    <button type="button" class="btn btn-primary" style="border-radius: 30px;">CSS</button>&nbsp;
-    <button type="button" class="btn btn-primary" style="border-radius: 30px;">PYTHON</button>&nbsp;
-    <button type="button" class="btn btn-primary"style="border-radius: 30px;">MYSQL</button>&nbsp;
-    <button type="button" class="btn btn-primary"style="border-radius: 30px;">ANGULAR</button>&nbsp;
-    <button type="button" class="btn btn-primary"style="border-radius: 30px;">JAVA SCRIPT</button>&nbsp;
+    <button type="button"    [routerLink]="['/html']" style="border-radius: 30px;background-color:whitesmoke">HTML</button>&nbsp;
+    <button type="button" style="border-radius: 30px;background-color:whitesmoke">CSS</button>&nbsp;
+    <button type="button"  style="border-radius: 30px;background-color:whitesmoke">PYTHON</button>&nbsp;
+    <button type="button" style="border-radius: 30px;background-color:whitesmoke">MYSQL</button>&nbsp;
+    <button type="button" style="border-radius: 30px;background-color:whitesmoke">ANGULAR</button>&nbsp;
+    <button type="button" style="border-radius: 30px;background-color:whitesmoke">JAVA SCRIPT</button>&nbsp;
     <br>
     <br>
+     <button type="button" style="border-radius: 30px;background-color:whitesmoke">BROWSE-ALL</button>&nbsp;
     <br>
     <br>
     <h5>BROWSE CATEGORY</h5>
